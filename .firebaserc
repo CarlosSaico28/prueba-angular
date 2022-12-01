@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "pruebaangular-9741a": {
+      "hosting": {
+        "PAngular": [
+          "pruebaangular-9741a"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "pruebaangular-9741a"
+  }
+}

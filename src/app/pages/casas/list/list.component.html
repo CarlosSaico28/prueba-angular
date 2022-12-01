@@ -1,0 +1,22 @@
+<h1>{{title}}</h1>
+
+
+
+<p>lista de productos</p>
+<table>
+    <tr>
+        <th>codigo</th> <br>
+        <th>tipo</th><br>
+        <th>direccion</th><br>
+        <th>extension</th><br>
+    </tr>
+    <tr *ngFor="let casa of casas |async">
+        <td>{{casa.code}}</td><br>
+        <td>{{casa.type}}</td><br>
+        <td>{{casa.Direction}}</td><br>
+        <td>{{casa.Extension}}</td><br>
+
+        
+       
+    </tr>
+</table>
